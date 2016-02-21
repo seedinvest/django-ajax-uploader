@@ -1,5 +1,5 @@
 class AbstractUploadBackend(object):
-    BUFFER_SIZE = 10485760  # 10MB
+    BUFFER_SIZE = 26214400  # 25MB
 
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
